@@ -21,7 +21,7 @@
     
 ----
 # Question 3:
-  In the following code, the one line starting with # is highlighted in red. What does this line mean to Python?  
+  In the following code, the one line starting with # , What does this line mean to Python?  
 
     tax_rate = 0.15`  
     income = 40000`  
@@ -100,4 +100,4 @@
   We encourage you to save your CodeSkulptor Python files where?  
 
 ### Answer  
-    In "the cloud" and on your computer.  
+    In the cloud and on your computer.  
