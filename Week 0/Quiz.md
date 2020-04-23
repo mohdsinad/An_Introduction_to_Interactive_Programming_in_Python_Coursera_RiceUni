@@ -75,9 +75,9 @@
 * `number123`  : This is a valid variable name.  
 * `ounces`     : This is a valid variable name.  
 * `my_number`  : This is a valid variable name. You can use underscores.  
-* `__number__` : This is a valid variable name. However, convention says that Python variable names starting and ending with underscores only in special circumstances.  
+* `__number__` : This is a valid variable name. However, convention says that Python variable names starting and ending with underscores                  only in special circumstances.  
 * `MYnumber`   : This is a valid variable name. However, convention says that Python variables shouldn't start with a capital letter.  
-* `my-number`  : No, this is not a valid variable name. You cannot use a dash in a variable name. The `-` is interpreted as a minus sign.  
+* `my-number`  : No, this is not a valid variable name. You cannot use a dash in a variable name. The `-` is interpreted as a minus                      sign.  
 
 ----
 # Question 8
