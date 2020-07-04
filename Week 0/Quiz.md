@@ -18,7 +18,7 @@
 
 ### Answer:
     print
-    
+
 ----
 # Question 3
   In the following code, the one line starting with `#` , What does this line mean to Python?  
@@ -26,10 +26,10 @@
     tax_rate = 0.15`  
     income = 40000`  
     deduction = 10000`  
-    
+
     # Calculate income taxes`  
     tax = (income - deduction) * tax_rate`  
-    
+
     print tax`  
 
 ### Answer:
@@ -52,7 +52,7 @@
 # Question 5
   You would like to make it so that the variable ounces has the value 16, thus representing one pound. What simple Python statement will accomplish this?  
 
-### Answer and Explanation: 
+### Answer and Explanation:
 * `ounces = 16`  : Correct  
 * `ounces == 16` : Means something different  
 * `16 = ounces`  : Invalid syntax  
@@ -63,7 +63,7 @@
   A gram is equal to 0.035274 ounces. Assume that the variable `mass_in_ounce`s has a value representing a mass in ounces. Which arithmetic expressions below using the variable `mass_in_ounces` represent the equivalent mass in grams?  
 
 ### Answer:
-    mass_in_ounces / 0.035274`  
+    mass_in_ounces / 0.035274  
 
 ----
 # Question 7
