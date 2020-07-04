@@ -84,3 +84,64 @@
 
 ### Explanation
     Each time `square` is called the global variable `count` is increased by 1.
+
+----
+# Question 7
+  Consider the following code.
+
+    a = 3
+    b = 6
+
+    def f(a):
+        c = a + b
+        return c
+
+  Which names occur in the global scope?
+
+### Answer
+    b, f, a
+
+----
+# Question 8
+  Consider the following code.
+
+    a = 3
+    b = 6
+
+    def f(a):
+        c = a + b
+        return c
+
+  Which names occur in the local scope?
+
+### Answer
+    c, a
+
+----
+# Question 9
+  Which of the following are valid calls to `create_frame`?
+
+### Answer
+      f = simplegui.create_frame("My Frame", 100, 100)
+      frame = simplegui.create_frame("Testing", 200, 200, 300)
+
+### Explanation
+    `frame = simplegui.create_frame(100, 100, 100)` : This is not a valid call. The call is missing title argument.
+    `frame = simplegui.create_frame("My Frame", 200, 200, 200, 200)` : This is not a valid call. The call has too many arguments.
+
+----
+# Question 10
+  Which of the following are valid ways of making a canvas with a red background?
+
+### Answer
+      import simplegui
+      frame = simplegui.create_frame("My Frame", 100, 100)
+      frame.set_canvas_background("Red")
+      frame.start()
+
+      import simplegui
+      frame = simplegui.create_frame("My Frame", 100, 100)
+      frame.set_canvas_background("red")
+      frame.start()
+
+----
