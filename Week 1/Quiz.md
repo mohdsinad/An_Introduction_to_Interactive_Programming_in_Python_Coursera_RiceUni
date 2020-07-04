@@ -26,17 +26,18 @@ Remember, each of the four results you provide should be `True` or `False` with 
   A common error for beginning programmers is to confuse the behavior of `print` statements and `return` statements.  
 
 * `print` statements can appear anywhere in your program and print a specified value(s) in the console. Note that execution of your Python program continues onward to the following statement. Remember that executing a `print` statement inside a function definition does not return a value from the function.  
-* `return` statements appear inside functions. The value associated with the `return` statement is substituted for the expression that called the function. Note that executing a `return` statement terminates execution of the function definition immediately. Any statements in the function definition following the `return` statement are ignored. Execution of your Python code resumes with the execution of the statement after the function call.  
+* `return` statements appear inside functions. The value associated with the `return` statement is substituted for the expression that called the function.
+
+Note that executing a `return` statement terminates execution of the function definition immediately. Any statements in the function definition following the `return` statement are ignored. Execution of your Python code resumes with the execution of the statement after the function call.  
 
 As an example to illustrate these points, consider the following piece of code:  
 
     def do_stuff():  
       print "Hello world"  
       return "Is it over yet?"  
-      print "Goodbye cruel world!"  
-    print do_stuff()  
+      print "Goodbye cruel world!"
 
-Note that this code calls the function `do_stuff` in the last `print` statement. The definition of `print_stuff` includes two `print` statements and one `return` statement.  
+    print do_stuff()  
 
 Which of the following is the console output that results from executing this piece of code? While it is trivial to solve this question by cutting and pasting this code into CodeSkulptor, we suggest that you first attempt this problem by attempting to execute this code in your mind.  
 
@@ -52,20 +53,19 @@ Which of the following is the console output that results from executing this pi
     (n % 100 - n % 10) / 10  
     ((n - n % 10) / 10) % 10
 
-### Explanation
+### Code and Explanation
     n = 123
-    print (n % 100 - n % 10) / 10
-    print ((n - n % 10) / 10) % 10
-    print (n - n % 10) / 10
+    a = (n % 100 - n % 10) / 10
+    b = ((n - n % 10) / 10) % 10
+    c = (n - n % 10) / 10
+    print a,b,c
 
     # Output
-      2
-      2
-      12
+      2 2 12
 
-    1)`(n % 100 - n % 10) / 10` : This expression computes the ten's digit correctly.  
-    2) `((n - n % 10) / 10) % 10` : This expression computes the ten's digit correctly. This is a relatively complicated expression to accomplish the goal.  
-    3) `(n - n % 10) / 10` : This expression does not compute the ten's digit correctly. This expression just truncates the one's digit.  
+    1) (n % 100 - n % 10) / 10 : This expression computes the ten's digit correctly.  
+    2) ((n - n % 10) / 10) % 10 : This expression computes the ten's digit correctly. This is a relatively complicated expression to accomplish the goal.  
+    3) (n - n % 10) / 10 : This expression does not compute the ten's digit correctly. This expression just truncates the one's digit.  
 
 ----
 # Question 5
