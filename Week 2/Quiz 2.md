@@ -76,11 +76,11 @@ That is equivalent to which of the following simpler statements?
       return x + y
 
 ### Explanation
-  *   def f (x, y):
-        """ Add the two inputs. """
+*     def f(x,y):
+      """ Add the two inputs. """
         return x + y
 
-    This does not follow recommended style, there shouldn't be a space before the parenthesis
+   This does not follow recommended style, there shouldn't be a space before the parenthesis
 
   *   def myFunction(x, y):
         """ Add the two inputs. """
