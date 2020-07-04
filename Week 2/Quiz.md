@@ -42,8 +42,8 @@
 
 ### Explanation
 
-1) def c(y):  
-    return x + y
+1) `def c(y):  
+    return x + y`
 
    This example does not need a global declaration. You don't need a `global` declaration unless you are assigning to the global variable.
 
