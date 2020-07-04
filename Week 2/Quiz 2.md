@@ -1,6 +1,5 @@
 # Question 1
-  In the following code, what does the number `100` represent?
-    `my_button = frame.add_button("My Label", button_handler, 100)`
+  What does the number `100` represent in the following code? :`my_button = frame.add_button("My Label", button_handler, 100)`
 
 ### Answer
     Width of the button in pixels.
@@ -64,7 +63,8 @@ That is equivalent to which of the following simpler statements?
     An incorrect computation that generates no error message
 
 ### Explanation
-    If you only assign to the variable, without trying to use its current value, you won't get any error message. Instead, Python assumes the variable is local, which might lead to an unexpected result.
+    If you only assign to the variable, without trying to use its current value, you won't get any error message.
+    Instead, Python assumes the variable is local, which might lead to an unexpected result.
 
 ----
 # Question 8
@@ -76,23 +76,23 @@ That is equivalent to which of the following simpler statements?
       return x + y
 
 ### Explanation
-*    def f (x, y):
-      """ Add the two inputs. """
-      return x + y
+  *   def f (x, y):
+        """ Add the two inputs. """
+        return x + y
 
     This does not follow recommended style, there shouldn't be a space before the parenthesis
 
-*    def myFunction(x, y):
-      """ Add the two inputs. """
-      return x + y
+  *   def myFunction(x, y):
+        """ Add the two inputs. """
+        return x + y
 
     This does not follow recommended style, only class names should use "camel case".
 
-*    def f(x, y):
-      """ Add the two inputs. """
-      return x+y
+  *   def f(x, y):
+        """ Add the two inputs. """
+        return x+y
 
-   This does not follow recommended style, there should be spaces around the addition operator.
+    This does not follow recommended style, there should be spaces around the addition operator.
 
 ----
 # Question 9

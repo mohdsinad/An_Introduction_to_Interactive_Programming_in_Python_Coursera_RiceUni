@@ -9,7 +9,7 @@
 * `"Hello"`                             : This is a string. You can use double-quotes.  
 * `"Goodbye'`                           : This is not a string. You can't mix-and-match single- and double-quotes.  
 * `"Hello, world."`                     : This is a string. You can use double-quotes.  
-* `'This course is great!`              : This is a string. You can use single-quotes.  
+* `'This course is great!'`             : This is a string. You can use single-quotes.  
 * `"Hello`                              : This is not a string. It is missing a closing double-quote.
 
 ----
@@ -40,7 +40,7 @@
   Which of the following arithmetic expressions are syntactically correct?  
 
 ### Answer and Explanation:  
-* `9 + * 4`                 : This example has incorrect syntax. The two operators + * together like this are meaningless.  
+* `9 + * 4`                 : This example has incorrect syntax. The two operators `+`,`*` together like this are meaningless.  
 * `(8 + (1 + (2 * 4) - 3))` : This example has correct syntax.  
 * `(7 - 2) / (3 ** 2)`      : This example has correct syntax.  
 * `5 * 3 (7 - 2)`           : This example has incorrect syntax. This is missing an operator between 3 and (7-2).  
@@ -57,10 +57,10 @@
 
 ----
 # Question 6
-  A gram is equal to 0.035274 ounces. Assume that the variable `mass_in_ounce`'s has a value representing a mass in ounces. Which arithmetic expressions below using the variable `mass_in_ounces` represent the equivalent mass in grams?  
+  A gram is equal to 0.035274 ounces. Assume that the variable `mass_in_ounce`'s has a value representing a mass in ounces. Which arithmetic expressions below using the variable `mass_in_ounces` represent the equivalent `mass in grams`?  
 
 ### Answer:
-    mass_in_ounces / 0.035274  
+    mass_in_grams = mass_in_ounces / 0.035274  
 
 ----
 # Question 7
@@ -72,9 +72,9 @@
 * `number123`  : This is a valid variable name.  
 * `ounces`     : This is a valid variable name.  
 * `my_number`  : This is a valid variable name. You can use underscores.  
-* `__number__` : This is a valid variable name. However, convention says that Python variable names starting and ending with underscores only in special circumstances.  
-* `MYnumber`   : This is a valid variable name. However, convention says that Python variables shouldn't start with a capital letter.  
-* `my-number`  : No, this is not a valid variable name. You cannot use a dash in a variable name. The `-` is interpreted as a minus sign.  
+* `__number__` : This is a valid variable name. Convention says that Python variable names starting and ending with underscores are allowed only in special circumstances.  
+* `MYnumber`   : This is a valid variable name. Convention says that Python variables shouldn't start with a capital letter.  
+* `my-number`  : No, this is not a valid variable name. You cannot use a `-` in a variable name. It is interpreted as a minus sign.  
 
 ----
 # Question 8

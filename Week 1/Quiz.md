@@ -64,8 +64,8 @@ Which of the following is the console output that results from executing this pi
       2 2 12
 
     1) (n % 100 - n % 10) / 10 : This expression computes the ten's digit correctly.  
-    2) ((n - n % 10) / 10) % 10 : This expression computes the ten's digit correctly. This is a relatively complicated expression to accomplish the goal.  
-    3) (n - n % 10) / 10 : This expression does not compute the ten's digit correctly. This expression just truncates the one's digit.  
+    2) ((n - n % 10) / 10) % 10 : This expression computes the ten's digit correctly.
+    3) (n - n % 10) / 10 : This expression just truncates the one's digit.  
 
 ----
 # Question 5
@@ -128,7 +128,7 @@ Which of the following is the console output that results from executing this pi
 
 ----
 # Question 8
-  There are several ways to calculate the area of a regular polygon. Given the number of sides, `n`, and the length of each side, `s`, the polygon's area is `(1/4 * n * (s^2)) / tan(pie/n)`. For example, a regular polygon with 5 sides, each of length 7 inches, has area 84.3033926289 square inches. Write a function that calculates the area of a regular polygon, given the number of sides and length of each side. Submit the area of a regular polygon with 7 sides each of length 3 inches. Enter a number (and not the units) with at least four digits of precision after the decimal point.
+  There are several ways to calculate the area of a regular polygon. Given the number of sides, `n`, and the length of each side, `s`, the polygon's area is `(1/4 * n * (s^2)) / tan(pi/n)`. For example, a regular polygon with 5 sides, each of length 7 inches, has area 84.3033926289 square inches. Write a function that calculates the area of a regular polygon, given the number of sides and length of each side. Submit the area of a regular polygon with 7 sides each of length 3 inches. Enter a number (and not the units) with at least four digits of precision after the decimal point.
 
 ### Answer
     32.705211996
@@ -164,7 +164,7 @@ Which of the following is the console output that results from executing this pi
     Incorrect indentation
 
 ### Explanation
-    The body of the function definition for `max_of_3()` should be indented, but it is not.  
+    The body of the function definition for max_of_3() should be indented, but it is not.  
 
 ----
 # Question 10
@@ -173,7 +173,8 @@ Which of the following is the console output that results from executing this pi
     define project_to_distance(point_x point_y distance):  
       dist_to_origin = math.square_root(pointx ** 2 + pointy ** 2)      
       scale == distance / dist_to_origin  
-      print point_x * scale, point_y * scale  
+      print point_x * scale, point_y * scale
+       
     project-to-distance(2, 7, 4)  
 
 ### Answer
