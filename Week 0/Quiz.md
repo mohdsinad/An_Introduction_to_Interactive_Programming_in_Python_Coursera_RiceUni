@@ -52,15 +52,12 @@
 # Question 5
   You would like to make it so that the variable ounces has the value 16, thus representing one pound. What simple Python statement will accomplish this?  
 
-### Answer and Explanation:
-* `ounces = 16`  : Correct  
-* `ounces == 16` : Means something different  
-* `16 = ounces`  : Invalid syntax  
-* `ounces := 16` : Invalid syntax  
+### Answer:
+    ounces = 16  
 
 ----
 # Question 6
-  A gram is equal to 0.035274 ounces. Assume that the variable `mass_in_ounce`s has a value representing a mass in ounces. Which arithmetic expressions below using the variable `mass_in_ounces` represent the equivalent mass in grams?  
+  A gram is equal to 0.035274 ounces. Assume that the variable `mass_in_ounce`'s has a value representing a mass in ounces. Which arithmetic expressions below using the variable `mass_in_ounces` represent the equivalent mass in grams?  
 
 ### Answer:
     mass_in_ounces / 0.035274  
@@ -75,18 +72,18 @@
 * `number123`  : This is a valid variable name.  
 * `ounces`     : This is a valid variable name.  
 * `my_number`  : This is a valid variable name. You can use underscores.  
-* `__number__` : This is a valid variable name. However, convention says that Python variable names starting and ending with underscores                  only in special circumstances.  
+* `__number__` : This is a valid variable name. However, convention says that Python variable names starting and ending with underscores only in special circumstances.  
 * `MYnumber`   : This is a valid variable name. However, convention says that Python variables shouldn't start with a capital letter.  
-* `my-number`  : No, this is not a valid variable name. You cannot use a dash in a variable name. The `-` is interpreted as a minus                      sign.  
+* `my-number`  : No, this is not a valid variable name. You cannot use a dash in a variable name. The `-` is interpreted as a minus sign.  
 
 ----
 # Question 8
   Assume you have values in the variables `x` and `y`. Which statement(s) would result in `x` having the sum of the current values of `x` and `y`?  
 
 ### Answer:
-    x += y
-    x = x + y  
-    x = y + x  
+* x += y
+* x = x + y  
+* x = y + x  
 
 ----
 # Question 9:
