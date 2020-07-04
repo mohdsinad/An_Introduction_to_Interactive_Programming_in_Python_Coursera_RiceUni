@@ -41,24 +41,24 @@
   Assume the following global definition is part of your program, `x = 5`, If each of the following function definitions are also part of your program, which of them **needs** a global `x` declaration?
 
 ### Explanation
-      def c(y):  
+*     def c(y):  
         return x + y
 
    This example does not need a global declaration. You don't need a `global` declaration unless you are assigning to the global variable.
 
-      def d(y):  
+*     def d(y):  
         y = x + y  
         return y
 
    This example does not need a global declaration. You don't need a `global` declaration unless you are assigning to the global variable.  
 
-      def b(x,y):  
+*     def b(x,y):  
         x = x + y  
         return x  
 
    This example does not need a global declaration. Here a local variable `x` is being assigned to. If you add a `global` declaration, you'll get a SyntaxError.  
 
-      def a(y):  
+*     def a(y):  
         x = x + y  
         return y  
 
@@ -68,14 +68,14 @@
 # Question 6
   Consider the following code.  
 
-      count = 0  
+    count = 0  
 
-      def square(x):  
-          global count  
-          count += 1  
-          return x**2  
+    def square(x):  
+        global count  
+        count += 1  
+        return x**2  
 
-      print square(square(square(square(3))))  
+    print square(square(square(square(3))))  
 
   What is the value of count at the end? Enter a number.  
 
@@ -122,8 +122,8 @@
   Which of the following are valid calls to `create_frame`?
 
 ### Answer
-      f = simplegui.create_frame("My Frame", 100, 100)
-      frame = simplegui.create_frame("Testing", 200, 200, 300)
+    f = simplegui.create_frame("My Frame", 100, 100)
+    frame = simplegui.create_frame("Testing", 200, 200, 300)
 
 ### Explanation
     frame = simplegui.create_frame(100, 100, 100) : This is not a valid call. The call is missing title argument.
