@@ -8,10 +8,10 @@
 # Question 2
   Consider the Boolean expression `not (p or not q)`. Give the four following values in order, separated only by spaces:
 
-    The value of the expression when `p` is `True`, and `q` is `True`.  
-    The value of the expression when `p` is `True`, and `q` is `False`.  
-    The value of the expression when `p` is `False`, and `q` is `True`.  
-    The value of the expression when `p` is `False`, and `q` is `False`.  
+    The value of the expression when p is True, and q is True.  
+    The value of the expression when p is True, and q is False.  
+    The value of the expression when p is False, and q is True.  
+    The value of the expression when p is False, and q is False.  
 
 Remember, each of the four results you provide should be `True` or `False` with the proper capitalization.
 
@@ -53,19 +53,19 @@ Which of the following is the console output that results from executing this pi
     ((n - n % 10) / 10) % 10
 
 ### Explanation
+    n = 123
+    print (n % 100 - n % 10) / 10
+    print ((n - n % 10) / 10) % 10
+    print (n - n % 10) / 10
+
+    # Output
+      2
+      2
+      12
+
     1)`(n % 100 - n % 10) / 10` : This expression computes the ten's digit correctly.  
     2) `((n - n % 10) / 10) % 10` : This expression computes the ten's digit correctly. This is a relatively complicated expression to accomplish the goal.  
     3) `(n - n % 10) / 10` : This expression does not compute the ten's digit correctly. This expression just truncates the one's digit.  
-
-        n = 123
-        print (n % 100 - n % 10) / 10
-        print ((n - n % 10) / 10) % 10
-        print (n - n % 10) / 10
-
-        # Output
-          2
-          2
-          12
 
 ----
 # Question 5
@@ -76,7 +76,7 @@ Which of the following is the console output that results from executing this pi
 
 ----
 # Question 6
-  Implement the mathematical function `f(x) = -5*x^5 + 69*x^2 - 47` as a Python function. Then use Python to compute the function values f(0), f(1), f(2), and f(3). Enter the maximum of these four numbers.
+  Implement the mathematical function `f(x) = (-5)*x^5 + (69)*x^2 - 47` as a Python function. Then use Python to compute the function values `f(0)`, `f(1)`, `f(2)`, and `f(3)`. Enter the maximum of these four numbers.
 
 ### Answer
     69
@@ -110,7 +110,7 @@ Which of the following is the console output that results from executing this pi
       # Put your code here.  
     print "$1000 at 2% compounded daily for 3 years yields $", future_value(1000, .02, 365, 3)
 
-    Before submitting your answer, test your function on the following example. `future_value(500, .04, 10, 10)` should return 745.317442824.  
+  Before submitting your answer, test your function on `future_value(500, .04, 10, 10)` and it should return 745.317442824.  
 
 ### Answer
     1061.83480113
