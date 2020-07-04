@@ -30,7 +30,6 @@
   5) Define helper functions  
   6) Register event handlers  
   7) Start frame and timers  
-
   Enter 7 numbers in the range 1-7, separated only by spaces, to indicate the recommended ordering of the preceding elements of an interactive Python program.
 
 ### Answer
