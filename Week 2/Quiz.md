@@ -41,41 +41,41 @@
   Assume the following global definition is part of your program, `x = 5`, If each of the following function definitions are also part of your program, which of them **needs** a global `x` declaration?
 
 ### Explanation
-
-1) `def c(y):  
-    return x + y`
+      def c(y):  
+        return x + y
 
    This example does not need a global declaration. You don't need a `global` declaration unless you are assigning to the global variable.
 
-2) def d(y):  
-    y = x + y  
-    return y
+      def d(y):  
+        y = x + y  
+        return y
 
    This example does not need a global declaration. You don't need a `global` declaration unless you are assigning to the global variable.  
 
-3) def b(x,y):  
-    x = x + y  
-    return x  
+      def b(x,y):  
+        x = x + y  
+        return x  
 
    This example does not need a global declaration. Here a local variable `x` is being assigned to. If you add a `global` declaration, you'll get a SyntaxError.  
 
-4) def a(y):  
-    x = x + y  
-    return y  
+      def a(y):  
+        x = x + y  
+        return y  
 
    This example does not need a global declaration. You don't need a `global` declaration unless you are assigning to the global variable.  
 
 ----
 # Question 6
   Consider the following code.  
-    count = 0  
 
-    def square(x):  
-        global count  
-        count += 1  
-        return x**2  
+      count = 0  
 
-    print square(square(square(square(3))))  
+      def square(x):  
+          global count  
+          count += 1  
+          return x**2  
+
+      print square(square(square(square(3))))  
 
   What is the value of count at the end? Enter a number.  
 
