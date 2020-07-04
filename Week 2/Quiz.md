@@ -23,14 +23,13 @@
 ----
 # Question 4
   For the SimpleGUI-based programs in this course, we recommended breaking down an interactive Python program into seven parts. Below, these parts are listed alphabetically.  
-
-    1) Create frame  
-    2) Define classes  
-    3) Define event handlers  
-    4) Initialize global variables  
-    5) Define helper functions  
-    6) Register event handlers  
-    7) Start frame and timers  
+  1) Create frame  
+  2) Define classes  
+  3) Define event handlers  
+  4) Initialize global variables  
+  5) Define helper functions  
+  6) Register event handlers  
+  7) Start frame and timers  
 
   Enter 7 numbers in the range 1-7, separated only by spaces, to indicate the recommended ordering of the preceding elements of an interactive Python program.
 
