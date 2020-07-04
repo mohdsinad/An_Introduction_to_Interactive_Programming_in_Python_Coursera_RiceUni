@@ -81,9 +81,9 @@
   Assume you have values in the variables `x` and `y`. Which statement(s) would result in `x` having the sum of the current values of `x` and `y`?  
 
 ### Answer:
-* x += y
-* x = x + y  
-* x = y + x  
+    x += y
+    x = x + y  
+    x = y + x  
 
 ----
 # Question 9:
