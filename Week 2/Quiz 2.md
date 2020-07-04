@@ -82,17 +82,17 @@ That is equivalent to which of the following simpler statements?
 
    This does not follow recommended style, there shouldn't be a space before the parenthesis
 
-  *   def myFunction(x, y):
-        """ Add the two inputs. """
+*     def myFunction(x, y):
+      """ Add the two inputs. """
         return x + y
 
-    This does not follow recommended style, only class names should use "camel case".
+   This does not follow recommended style, only class names should use "camel case".
 
-  *   def f(x, y):
-        """ Add the two inputs. """
+*     def f(x, y):
+      """ Add the two inputs. """
         return x+y
 
-    This does not follow recommended style, there should be spaces around the addition operator.
+   This does not follow recommended style, there should be spaces around the addition operator.
 
 ----
 # Question 9
