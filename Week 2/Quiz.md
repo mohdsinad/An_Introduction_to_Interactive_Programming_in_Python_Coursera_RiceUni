@@ -83,7 +83,7 @@
     4
 
 ### Explanation
-    Each time `square` is called the global variable `count` is increased by 1.
+    Each time square is called the global variable count is increased by 1.
 
 ----
 # Question 7
@@ -99,7 +99,7 @@
   Which names occur in the global scope?
 
 ### Answer
-    b, f, a
+    b f a
 
 ----
 # Question 8
@@ -115,7 +115,7 @@
   Which names occur in the local scope?
 
 ### Answer
-    c, a
+    c a
 
 ----
 # Question 9
@@ -126,20 +126,20 @@
       frame = simplegui.create_frame("Testing", 200, 200, 300)
 
 ### Explanation
-    `frame = simplegui.create_frame(100, 100, 100)` : This is not a valid call. The call is missing title argument.
-    `frame = simplegui.create_frame("My Frame", 200, 200, 200, 200)` : This is not a valid call. The call has too many arguments.
+    frame = simplegui.create_frame(100, 100, 100) : This is not a valid call. The call is missing title argument.
+    frame = simplegui.create_frame("My Frame", 200, 200, 200, 200) : This is not a valid call. The call has too many arguments.
 
 ----
 # Question 10
   Which of the following are valid ways of making a canvas with a red background?
 
 ### Answer
-      import simplegui
+*     import simplegui
       frame = simplegui.create_frame("My Frame", 100, 100)
       frame.set_canvas_background("Red")
       frame.start()
 
-      import simplegui
+*     import simplegui
       frame = simplegui.create_frame("My Frame", 100, 100)
       frame.set_canvas_background("red")
       frame.start()
