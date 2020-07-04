@@ -16,19 +16,19 @@
 Remember, each of the four results you provide should be `True` or `False` with the proper capitalization.
 
 ### Answer
-    False
-    False
-    True
-    False  
+    False False True False  
 
 ----
 # Question 3
   A common error for beginning programmers is to confuse the behavior of `print` statements and `return` statements.  
 
-* `print` statements can appear anywhere in your program and print a specified value(s) in the console. Note that execution of your Python program continues onward to the following statement. Remember that executing a `print` statement inside a function definition does not return a value from the function.  
+* `print` statements can appear anywhere in your program and print a specified value(s) in the console.
+
+Note that executing a `print` statement inside a function definition does not return a value from the function.  
+
 * `return` statements appear inside functions. The value associated with the `return` statement is substituted for the expression that called the function.
 
-Note that executing a `return` statement terminates execution of the function definition immediately. Any statements in the function definition following the `return` statement are ignored. Execution of your Python code resumes with the execution of the statement after the function call.  
+Note that executing a `return` statement terminates execution of the function definition immediately and any statements in the function definition following the `return` statement are ignored.
 
 As an example to illustrate these points, consider the following piece of code:  
 
@@ -98,11 +98,7 @@ Which of the following is the console output that results from executing this pi
 # Question 7
   When investing money, an important concept to know is compound interest. The equation `FV = PV (1+rate)^periods` relates the following four quantities.
 
-  The present value (PV) of your money is how much money you have now.
-  The future value (FV) of your money is how much money you will have in the future.
-  The nominal interest rate per period (rate) is how much interest you earn during a particular length of time, before accounting for compounding. This is typically expressed as a percentage.
-  The number of periods (periods) is how many periods in the future this calculation is for.
-  Finish the following code, run it, and submit the printed number. Provide at least four digits of precision after the decimal point.
+  The present value (PV) of your money is how much money you have now. The future value (FV) of your money is how much money you will have in the future. The nominal interest rate per period (rate) is how much interest you earn during a particular length of time, before accounting for compounding. This is typically expressed as a percentage. The number of periods (periods) is how many periods in the future this calculation is for. Finish the following code, run it, and submit the printed number. Provide at least four digits of precision after the decimal point.
 
     def future_value(present_value, annual_rate, periods_per_year, years):  
       rate_per_period = annual_rate / periods_per_year  
@@ -132,7 +128,7 @@ Which of the following is the console output that results from executing this pi
 
 ----
 # Question 8
-  There are several ways to calculate the area of a regular polygon. Given the number of sides, n, and the length of each side, s, the polygon's area is `(1/4 * n * (s^2)) / tan(pie/n)`. For example, a regular polygon with 5 sides, each of length 7 inches, has area 84.3033926289 square inches. Write a function that calculates the area of a regular polygon, given the number of sides and length of each side. Submit the area of a regular polygon with 7 sides each of length 3 inches. Enter a number (and not the units) with at least four digits of precision after the decimal point.
+  There are several ways to calculate the area of a regular polygon. Given the number of sides, `n`, and the length of each side, `s`, the polygon's area is `(1/4 * n * (s^2)) / tan(pie/n)`. For example, a regular polygon with 5 sides, each of length 7 inches, has area 84.3033926289 square inches. Write a function that calculates the area of a regular polygon, given the number of sides and length of each side. Submit the area of a regular polygon with 7 sides each of length 3 inches. Enter a number (and not the units) with at least four digits of precision after the decimal point.
 
 ### Answer
     32.705211996
@@ -172,7 +168,7 @@ Which of the following is the console output that results from executing this pi
 
 ----
 # Question 10
-  The following code has a number of syntactic errors in it. The intended math calculations are correct, so the only errors are syntactic. Fix the syntactic errors.Once the code has been fully corrected, it should print out two numbers. The first should be 1.09888451159. Submit the second number printed in CodeSkulptor. Provide at least four digits of precision after the decimal point.  
+  The following code has a number of syntactic errors in it. The intended math calculations are correct, so the only errors are syntactic. Fix the syntactic errors. Once the code has been fully corrected, it should print out two numbers. The first should be 1.09888451159. Submit the second number printed in CodeSkulptor. Provide at least four digits of precision after the decimal point.  
 
     define project_to_distance(point_x point_y distance):  
       dist_to_origin = math.square_root(pointx ** 2 + pointy ** 2)      
