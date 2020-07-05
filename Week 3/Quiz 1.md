@@ -2,7 +2,7 @@
   What Python operator takes two strings and forms the combination of these two strings, one followed by the other.
 
 ### Answer
-    `+`  
+    +
 
 ----
 # Question 2
@@ -23,7 +23,7 @@
   Assume we have a canvas that is 200 pixels wide and 300 pixels high. We want to draw a green line between the upper left corner and the lower right corner. Which of the following calls will accomplish this?  
 
 ### Answer
-  canvas.draw_line((199, 299), (0, 0), 10, "Green")
+    canvas.draw_line((199, 299), (0, 0), 10, "Green")
 
 ----
 # Question 5
@@ -50,7 +50,7 @@
     print date(2, 12)  
 
 ### Answer
-  str(month) + "/" + str(day)  
+    str(month) + "/" + str(day)  
 
 ----
 # Question 6
