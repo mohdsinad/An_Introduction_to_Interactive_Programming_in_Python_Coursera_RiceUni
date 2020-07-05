@@ -58,7 +58,7 @@ Here are some hidden details to explain this potentially confusing behavior. Eac
 * Calls `__init__` to initialize the object,
 * Then returns this object.  
 
-  So, while there is a `return` statement somewhere, it is in this hidden constructor method that you don't have to define.  
+So, while there is a `return` statement somewhere, it is in this hidden constructor method that you don't have to define.  
 
 ----
 # Question 5
@@ -157,7 +157,7 @@ How long is `results`? To test your code, when `n` is instead 100, the length of
     168  
 
 ### Explanation and Code
-    This computes the primes less than n by a process known as the Sieve of Eratosthenes.  
+This computes the primes less than n by a process known as the Sieve of Eratosthenes.  
 
       n = 1000
       numbers = range(2, n)
