@@ -39,11 +39,11 @@
 ### Answer
     0.82842712475  
 
-### Explanation
+### Code
     import math
     point1 = [4, 7]
     point2 = [2, 9]
-    distance = math.sqrt(((point2[0]-point1[0])^2) + ((point2[1]-point1[1])^2))
+    distance = math.sqrt(((point2[0]-point1[0])`**`2) + ((point2[1]-point1[1])`**`2))
     print distance
 
 ----
