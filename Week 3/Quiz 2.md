@@ -4,12 +4,13 @@
     import simplegui
 
     def timer_handler():
-       .
+       return 0
 
     timer = simplegui.create_timer(10, timer_handler)
     timer.start()
 
 The body of `timer_handler` isn't given, as it is irrelevant for this question.
+
 ### Answer
     Unlimited - It is called repeatedly until you stop the program.  
 
@@ -101,8 +102,9 @@ The body of `timer_handler` isn't given, as it is irrelevant for this question.
     1970  
 
 ### Explanation
-      ticks = time.time()
-      print "Number of ticks since 12:00am, January 1, 1970:", ticks
+        import time
+        ticks = time.time()
+        print "Number of ticks since 12:00am, January 1, 1970:", ticks
 
     The above code outputs the returns the current time as the number of seconds since Epoch (12:00am, January 1, 1970).
 
