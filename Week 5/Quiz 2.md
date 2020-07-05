@@ -22,7 +22,7 @@
 ### Answer  
     favorites["fruit"] = "blackberry"  
 
-### Code
+### Explanation
 * `favorites = {"fruit" : "blackberry"}` : This statement creates a new dictionary instead of adding to an existing dictionary.  
 
 ----
@@ -39,7 +39,7 @@
 * Tuples  
 * Strings  
 
-### Code  
+### Explanation  
     Keys in a dictionary can have any immutable data type.  
 
 ----
@@ -56,7 +56,7 @@
 * Lists  
 * Numbers  
 
-### Code
+### Explanation
     Values in a dictionary can be of any data type.  
 
 ----
@@ -90,15 +90,19 @@ What code should replace the question marks so that the two forms are equivalent
 
 ### Answer and Explanation   
 * Storing names and IDs (identification numbers).
+
 Yes, map each ID (key) to the corresponding name (value). Each ID should be unique.  
 
 * Storing `x` and `y` coordinates of an arbitrary collection of 2-dimensional points.
+
 Not in general. This would make sense if the points were for a function, so that each x coordinate occurred at most once.  
 
 * Storing where each person lives
+
 Yes, map each person (key) to the corresponding address (value).  
 
 * Computing averages.  
+
 No, dictionaries don't compute anything.  
 
 Note that it is possible to use dictionaries to represent sets and ordered collections. However, the focus of this question is on the relationship between data.  

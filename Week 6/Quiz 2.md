@@ -36,7 +36,7 @@
 ### Answer  
     dl  
 
-### Code
+### Explanation
     dl specifies that the file is for download.  
 
 ----
@@ -52,7 +52,7 @@
     No return statement is needed in __init__.  
 
 ### Explanation  
-    Here are some hidden details to explain this potentially confusing behavior. Each Python class has a hidden constructor method that  
+Here are some hidden details to explain this potentially confusing behavior. Each Python class has a hidden constructor method that  
 
 * Constructs (makes) the object.  
 * Calls `__init__` to initialize the object,

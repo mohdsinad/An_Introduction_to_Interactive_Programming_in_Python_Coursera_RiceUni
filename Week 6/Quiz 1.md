@@ -81,9 +81,9 @@ The last line defines the variable `my_object` as an object of `My_Class` class.
 # Question 5
   We want to have balls that move around. Which of the following designs represents encapsulation best?  
 
-*   # centers : A list of points, the balls' center points
+    #centers : A list of points, the balls' center points
     centers = .
-    # radii : A list of numbers, the balls' radii
+    #radii : A list of numbers, the balls' radii
     radii = .
 
     def move(ball_number, move_vector):
@@ -91,7 +91,7 @@ The last line defines the variable `my_object` as an object of `My_Class` class.
         centers[ball_number][0] += move_vector[0]
         centers[ball_number][1] += move_vector[1]  
 
-*   class Ball:
+    class Ball:
       def __init__(self, c, r):
           self.center = c
           self.radius = r
@@ -105,7 +105,7 @@ The last line defines the variable `my_object` as an object of `My_Class` class.
       ball.center[0] += move_vector[0]
       ball.center[1] += move_vector[1]
 
-*   class Ball:
+    class Ball:
       def __init__(self, c, r):
           self.center = c
           self.radius = r
@@ -118,7 +118,7 @@ The last line defines the variable `my_object` as an object of `My_Class` class.
     # balls : A list of Ball objects
     balls = .
 
-*   class Ball:
+    class Ball:
       def __init__(self, c, r):
         self.center = c
         self.radius = r
