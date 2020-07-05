@@ -4,19 +4,17 @@
     import simplegui
 
     def timer_handler():
-       return 0
+      ...
 
     timer = simplegui.create_timer(10, timer_handler)
     timer.start()
-
-The body of `timer_handler` isn't given, as it is irrelevant for this question.
 
 ### Answer
     Unlimited - It is called repeatedly until you stop the program.  
 
 ### Code
       import simplegui
-      import time;  # This is required to include time module.
+      import time
 
       Count = 0
       def timer_handler():
@@ -40,7 +38,7 @@ The body of `timer_handler` isn't given, as it is irrelevant for this question.
 
 ### Code
       import simplegui
-      import time;  # This is required to include time module.
+      import time
 
       Count = 0
       def timer_handler():
@@ -62,7 +60,7 @@ The body of `timer_handler` isn't given, as it is irrelevant for this question.
 
 ----
 # Question 3
-  How do you change the frequency of a running timer, either increasing or decreasing the frequency? E.g., in the code below, we want code at the question marks that changes the timer.  
+  How do you change the frequency of a running timer, either increasing or decreasing the frequency? for e.g., in the code below, we want code at the question marks that changes the timer.  
 
     .
     timer = simplegui.create_timer(1000, timer_handler)
@@ -92,7 +90,7 @@ The body of `timer_handler` isn't given, as it is irrelevant for this question.
     Seconds  
 
 ### Explanation
-    time.time( ) returns the current time instant, a floating-point number of seconds since the Epoch (12:00am, January 1, 1970).
+    time.time() returns the current time instant, a floating-point number of seconds since the Epoch (12:00am, January 1, 1970).
 
 ----
 # Question 6
@@ -111,9 +109,6 @@ The body of `timer_handler` isn't given, as it is irrelevant for this question.
 ----
 # Question 7
   The Python code below uses a timer to execute the function `update()` 10 times, computing a good approximation to a common mathematical function. Examine the code, and run it while varying the input value `n`. What is the common name for what this computes?  
-
-    # Mystery computation in Python
-    # Takes input n and computes output named result
 
     import simplegui
 

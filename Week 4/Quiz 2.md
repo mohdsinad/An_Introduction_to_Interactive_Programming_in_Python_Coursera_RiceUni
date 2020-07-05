@@ -19,9 +19,11 @@
   Which of the following functions must include a global `point` declaration in order to change the global variable `point`?  
 
     point = [0, 0]  
+
     def function1():  
       point[0] += 1  
       point[1] += 2  
+
     def function2():  
       point = [50, 50]  
 
@@ -107,7 +109,7 @@
     3  
 
 ### Explanation
-    At the end `print a,b,c,d` and notice the changes. Run the in Viz mode.
+    At the end print a, b, c, d and notice the changes. Run the code in Viz mode.
 
 ----
 # Question 7
