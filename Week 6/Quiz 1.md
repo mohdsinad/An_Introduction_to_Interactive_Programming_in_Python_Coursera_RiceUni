@@ -81,64 +81,73 @@ The last line defines the variable `my_object` as an object of `My_Class` class.
 # Question 5
   We want to have balls that move around. Which of the following designs represents encapsulation best?  
 
-    #centers : A list of points, the balls' center points
-    centers = .
-    #radii : A list of numbers, the balls' radii
-    radii = .
+  ```python
+  # centers : A list of points, the balls' center points
+  centers = .
+  # radii : A list of numbers, the balls' radii
+  radii = .
 
-    def move(ball_number, move_vector):
-        """Changes the position of the numbered ball by adding the given vector."""
-        centers[ball_number][0] += move_vector[0]
-        centers[ball_number][1] += move_vector[1]  
+  def move(ball_number, move_vector):
+      """Changes the position of the numbered ball by adding the given vector."""
+      centers[ball_number][0] += move_vector[0]
+      centers[ball_number][1] += move_vector[1]
+  ```  
 
-    class Ball:
+  ```python
+  class Ball:
       def __init__(self, c, r):
           self.center = c
           self.radius = r
 
 
-    # balls : A list of Ball objects
-    balls = .
+  # balls : A list of Ball objects
+  balls = .
 
-    def move(ball, move_vector):
+  def move(ball, move_vector):
       """Changes the position of the given Ball object by adding the given vector."""
       ball.center[0] += move_vector[0]
       ball.center[1] += move_vector[1]
+  ```  
 
-    class Ball:
+  ```python
+  class Ball:
       def __init__(self, c, r):
           self.center = c
           self.radius = r
 
       def move(self, move_vector):
-        """Changes the position of the ball by the given vector."""
-        self.center[0] += move_vector[0]
-        self.center[1] += move_vector[1]
+          """Changes the position of the ball by the given vector."""
+          self.center[0] += move_vector[0]
+          self.center[1] += move_vector[1]
 
-    # balls : A list of Ball objects
-    balls = .
 
-    class Ball:
+  # balls : A list of Ball objects
+  balls = .
+  ```  
+
+  ```python
+  class Ball:
       def __init__(self, c, r):
-        self.center = c
-        self.radius = r
+          self.center = c
+          self.radius = r
 
       def get_position(self):
-        return self.center
+          return self.center
 
       def set_position(self, new_position):
-        self.center = new_position
+          self.center = new_position
 
 
-      # balls : A list of Ball objects
-      balls = .
+  # balls : A list of Ball objects
+  balls = .
 
-      def move(ball, move_vector):
-          """Changes the position of the given Ball object by adding the given vector."""
-          position = ball.get_position()
-          position[0] += move_vector[0]
-          position[1] += move_vector[1]
-          ball.set_position(position)
+  def move(ball, move_vector):
+      """Changes the position of the given Ball object by adding the given vector."""
+      position = ball.get_position()
+      position[0] += move_vector[0]
+      position[1] += move_vector[1]
+      ball.set_position(position)
+  ```  
 
 ### Answer  
     class Ball:
