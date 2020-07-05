@@ -24,12 +24,15 @@
   If we want to split a list `my_list` into two halves, which of the following uses slices to do so correctly? More precisely, if the length of `my_list` is 2n, i.e., even, then the two parts should each have length n. If its length is 2n+1, i.e., odd, then the two parts should have lengths n and n+1.  
 
 ### Answer
-  my_list[0 : len(my_list) // 2]` and `my_list[len(my_list) // 2 : len(my_list)]
-  my_list[: len(my_list) // 2]` and `my_list[len(my_list) // 2 :]  
+  my_list[0 : len(my_list) // 2] and my_list[len(my_list) // 2 : len(my_list)]
+  my_list[: len(my_list) // 2] and my_list[len(my_list) // 2 :]  
 
 ### Explanation
-`my_list[0 : len(my_list) // 2]` and `my_list[len(my_list) // 2 + 1 : len(my_list)]`: The list element at index `len(my_list) // 2` is not in either part.  
-`my_list[: len(my_list) // 2 - 1]` and `my_list[len(my_list) // 2 :]` : The list element at index `len(my_list) // 2 - 1` is not in either part.  
+`my_list[0 : len(my_list) // 2]` and `my_list[len(my_list) // 2 + 1 : len(my_list)]`
+The list element at index `len(my_list) // 2` is not in either part.  
+
+`my_list[: len(my_list) // 2 - 1]` and `my_list[len(my_list) // 2 :]`
+The list element at index `len(my_list) // 2 - 1` is not in either part.  
 
 ----
 # Question 5

@@ -13,7 +13,7 @@ LEFT = False
 RIGHT = True
 SIDE = LEFT
 
-# initialize ball_pos and ball_vel for new bal in middle of table
+# initialize ball_pos and ball_vel for new ball in middle of table
 # if direction is RIGHT, the ball's velocity is upper right, else upper left
 def spawn_ball(direction):
     global ball_pos, ball_vel # these are vectors stored as lists
@@ -22,7 +22,6 @@ def spawn_ball(direction):
         ball_vel = [random.randrange(120, 240) / 60, -(random.randrange(60, 180) /60)]
     else:
         ball_vel = [-(random.randrange(120, 240) / 60), -(random.randrange(60, 180) / 60)]
-
 
 # define event handlers
 def new_game():
