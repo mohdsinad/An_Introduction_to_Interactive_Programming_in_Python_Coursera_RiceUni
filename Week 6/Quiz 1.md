@@ -165,7 +165,7 @@ The last line defines the variable `my_object` as an object of `My_Class` class.
     balls = .  
 
 ### Explanation  
-    All of the data and operations are packaged together inside the class. Note that Python always allows you to break encapsulation, as in the versions where `move` is defined outside the class, but looks at the data inside. Some other languages (like Java or C++) provide the ability to prohibit such behavior.  
+All of the data and operations are packaged together inside the class. Note that Python always allows you to break encapsulation, as in the versions where `move` is defined outside the class, but looks at the data inside. Some other languages (like Java or C++) provide the ability to prohibit such behavior.  
 
 ----
 # Question 6
@@ -184,21 +184,21 @@ Outside of the class, we want to create two `Overload` objects. If Python suppor
     No  
 
 ### Explanation  
-    The second definition of `__init__` replaces the first. They can't both be used. So, Python does not support overloading, i.e., having multiple definitions of the same method. Instead, Python supports very flexible function and method definitions. While we haven't illustrated it for you previously, we could have accomplished the same idea as above with a single method definition.  
+The second definition of `__init__` replaces the first. They can't both be used. So, Python does not support overloading, i.e., having multiple definitions of the same method. Instead, Python supports very flexible function and method definitions. While we haven't illustrated it for you previously, we could have accomplished the same idea as above with a single method definition.  
 
-      class Overload:
-          def __init__(self, one, two=0):
-              """Example of method that takes one required argument and one optional argument."""
-              pass
+    class Overload:
+      def __init__(self, one, two=0):
+      """Example of method that takes one required argument and one optional argument."""
+      pass
 
-      Overload(1)        # Implicitly, we leave the second argument as its default value, 0.
-      Overload(1,2)
+    Overload(1)        # Implicitly, we leave the second argument as its default value, 0.
+    Overload(1,2)
 
-    While this toy example doesn't do anything useful, it doesn't have any errors.  
+While this toy example doesn't do anything useful, it doesn't have any errors.  
 
 ----
 # Question 7
-  First, complete the following class definition:  
+First, complete the following class definition:  
 
     class BankAccount:
         def __init__(self, initial_balance):
@@ -220,14 +220,14 @@ Outside of the class, we want to create two `Overload` objects. If Python suppor
             """Returns the total fees ever deducted from the account."""
             .
 
-    The `deposit` and `withdraw` methods each change the account balance. The `withdraw` method also deducts a fee of 5 dollars from the balance if the withdrawal (before any fees) results in a negative balance. Since we also have the method `get_fees`, you will need to have a variable to keep track of the fees paid.Here's one possible test of the class. It should print the values 10 and 5, respectively, since the withdrawal incurs a fee of 5 dollars.  
+The `deposit` and `withdraw` methods each change the account balance. The `withdraw` method also deducts a fee of 5 dollars from the balance if the withdrawal (before any fees) results in a negative balance. Since we also have the method `get_fees`, you will need to have a variable to keep track of the fees paid.Here's one possible test of the class. It should print the values 10 and 5, respectively, since the withdrawal incurs a fee of 5 dollars.  
 
       my_account = BankAccount(10)
       my_account.withdraw(15)
       my_account.deposit(20)
       print my_account.get_balance(), my_account.get_fees()
 
-    Copy-and-paste the following much longer test. What two numbers are printed at the end? Enter the two numbers, separated only by spaces.  
+Copy-and-paste the following much longer test. What two numbers are printed at the end? Enter the two numbers, separated only by spaces.  
 
       my_account = BankAccount(10)
       my_account.withdraw(5)
@@ -361,7 +361,7 @@ Outside of the class, we want to create two `Overload` objects. If Python suppor
 
 ----
 # Question 8
-  We will again use the `BankAccount` class from the previous problem. You should be able to use the same definition for both problems.  
+We will again use the `BankAccount` class from the previous problem. You should be able to use the same definition for both problems.  
 
     class BankAccount:
         def __init__(self, initial_balance):
