@@ -1,5 +1,5 @@
 # Question 1
-  What does the number `100` represent in the following code? :`my_button = frame.add_button("My Label", button_handler, 100)`
+  What does the number `100` represent in the following code : `my_button = frame.add_button("My Label", button_handler, 100)`
 
 ### Answer
     Width of the button in pixels.
@@ -63,8 +63,7 @@ That is equivalent to which of the following simpler statements?
     An incorrect computation that generates no error message
 
 ### Explanation
-    If you only assign to the variable, without trying to use its current value, you won't get any error message.
-    Instead, Python assumes the variable is local, which might lead to an unexpected result.
+If you only assign to the variable, without trying to use its current value, you won't get any error message. Instead, Python assumes the variable is local, which might lead to an unexpected result.
 
 ----
 # Question 8

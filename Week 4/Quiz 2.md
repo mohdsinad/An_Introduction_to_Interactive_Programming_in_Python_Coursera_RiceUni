@@ -88,7 +88,7 @@
     position = position + delta  
 
 ### Answer
-    The `+` operator on lists does not mean addition of the numbers in a list.  
+    The + operator on lists does not mean addition of the numbers in a list.  
 
 ----
 # Question 6

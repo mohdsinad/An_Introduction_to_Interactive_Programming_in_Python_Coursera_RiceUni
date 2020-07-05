@@ -16,7 +16,7 @@
   What happens if you draw text outside the canvas coordinates?  
 
 ### Answer
-    Some or none of the text is shown. Conceptually, the text is drawn at whatever coordinates are given, but only whatever text fits within the canvas coordinates is shown.  
+Some or none of the text is shown. Conceptually, the text is drawn at whatever coordinates are given, but only whatever text fits within the canvas coordinates is shown.  
 
 ----
 # Question 4

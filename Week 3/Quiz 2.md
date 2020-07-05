@@ -34,7 +34,7 @@
   You want a timer to create exactly 1000 events. Which of the following solutions are possible?  
 
 ### Answer
-    Have a global counter for the number of timer calls. In the timer handler, increment the counter. In the timer handler, check the count and possibly stop the timer.  
+Have a global counter for the number of timer calls. In the timer handler, increment the counter. In the timer handler, check the count and possibly stop the timer.  
 
 ### Code
       import simplegui
@@ -69,11 +69,11 @@
     ???
 
 ### Answer
-    You can't. But, you can stop this timer, and start a new one with a different frequency and same handler as given in the code below  
+You can't. But, you can stop this timer, and start a new one with a different frequency and same handler as given in the code below  
 
-      timer.stop()
-      timer = simplegui.create_timer(300, timer_handler)
-      timer.start()  
+    timer.stop()
+    timer = simplegui.create_timer(300, timer_handler)
+    timer.start()  
 
 ----
 # Question 4
@@ -210,6 +210,6 @@ The Collatz conjecture states that this sequence always terminates at 1. For exa
   CodeSkulptor runs your Python code by converting it into Javascript when you click the "Run" button and then executing this Javascript in your web browser. If the SimpleGUI frame is spawned as a separate window, you should see an animation of an explosion in the canvas for this frame. If the SimpleGUI frame is spawned as a separate tab on top of the existing window containing the code, the animation will "freeze" and a single static image is displayed. As explained in the FAQ, what is the explanation for this behavior?  
 
 ### Answer
-    To save resources, modern browsers only execute the Javascript associated with the topmost tab of a window. The animation freezes since the code tab and its associated Javascript is no longer the topmost tab.  
+To save resources, modern browsers only execute the Javascript associated with the topmost tab of a window. The animation freezes since the code tab and its associated Javascript is no longer the topmost tab.  
 
 ----
