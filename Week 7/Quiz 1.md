@@ -17,25 +17,29 @@
   Which of the following code snippets are valid usages of the `Point2D` initializer and its `translate` method?
 
 ### Answer And Explanation  
-* point = Point2D(3, 9)
-  point.translate(5, -2)
-
+```python
+point = Point2D(3, 9)
+point.translate(5, -2)
+```
 Yes, it is a valid code snippet.  
 
-* point = Point2D(3, 9)
-  translate(point, 5, -2)
-
+```python
+point = Point2D(3, 9)
+translate(point, 5, -2)
+```
 No, `translate` is not defined globally. It is defined only for `Point2D` objects.  
 
-* point1 = Point2D(3, 9)
-  point2 = Point2D()
-  point2.translate(20, 4)
-
+```python
+point1 = Point2D(3, 9)
+point2 = Point2D()
+point2.translate(20, 4)
+```
 Yes, you can define multiple `Point2D` objects. Furthermore, the initializer is defined so that you don't have to provide arguments to `Point2D()`.  
 
-* Point2D(3, 9)
-  Point2D.translate(5, -2)
-
+```python
+Point2D(3, 9)
+Point2D.translate(5, -2)
+```
 No, it is not a valid code snippet.  
 
 ----
@@ -59,24 +63,27 @@ No, it is not a valid code snippet.
 
 ### Answer And Explanation  
 
-* points = [(2, 5), (8, 3), (0, 2)]
-  for point in points:
-      point.translate(-1, -1)
-
+```python
+points = [(2, 5), (8, 3), (0, 2)]
+for point in points:
+  point.translate(-1, -1)
+```
 No, `translate` is defined only on a `Point2D` object, not on a tuple.  
 
-* point0 = Point2D(2, 5)
-  point1 = Point2D(8, 3)
-  point2 = Point2D(0, 2)
-  points = [point0, point1, point2]
-  points.translate(-1, -1)
-
+```python
+point0 = Point2D(2, 5)
+point1 = Point2D(8, 3)
+point2 = Point2D(0, 2)
+points = [point0, point1, point2]
+points.translate(-1, -1)
+```
 No, `translate` is defined only on a `Point2D` object, not on a list of `Point2D` objects.  
 
-* points = [Point2D(2, 5), Point2D(8, 3), Point2D(0, 2)]
-  for point in points:
-      point.translate(-1, -1)
-
+```python
+points = [Point2D(2, 5), Point2D(8, 3), Point2D(0, 2)]
+for point in points:
+  point.translate(-1, -1)
+```
 Yes, it is a valid code snippet.  
 
 ----
@@ -98,23 +105,23 @@ Yes, it is a valid code snippet.
 
   Which of the following code snippets are valid usages of the `Point2D` initializer and its `translate` method?
 
-* ```python
+```python
 point = Point2D(3, 6)
 lst = list(point)
 ```  
 
-* ```python
+```python
 point = Point2D(3, 6)
 tup = tuple(point)
 ```  
 
-* ```python
+```python
 point = Point2D(3, 6)
 s = str(point)
 newpoint = Point(s)
 ```  
 
-* ```python
+```python
 point = Point2D(3, 6)
 s = str(point)
 ```  

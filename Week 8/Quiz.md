@@ -90,7 +90,7 @@ Yes, it can be represented as a set.
     age  
 
 ### Explanation  
-    In the draw method of the Sprite class, check if `self.animated` is `True`. If so, then choose the correct tile in the image based on the age. The image is tiled horizontally. If `self.animated` is `False`, it should continue to draw the sprite as before.  
+In the draw method of the Sprite class, check if `self.animated` is `True`. If so, then choose the correct tile in the image based on the age. The image is tiled horizontally. If `self.animated` is `False`, it should continue to draw the sprite as before.  
 
 ----
 # Question 7

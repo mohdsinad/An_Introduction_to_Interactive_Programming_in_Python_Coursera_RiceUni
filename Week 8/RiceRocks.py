@@ -39,8 +39,7 @@ class ImageInfo:
 
 # art assets created by Kim Lathrop, may be freely re-used in non-commercial projects, please credit Kim
 
-# debris images - debris1_brown.png, debris2_brown.png, debris3_brown.png, debris4_brown.png
-#                 debris1_blue.png, debris2_blue.png, debris3_blue.png, debris4_blue.png, debris_blend.png
+# debris images - debris1_brown.png, debris2_brown.png, debris3_brown.png, debris4_brown.png, debris1_blue.png, debris2_blue.png, debris3_blue.png, debris4_blue.png, debris_blend.png
 debris_info = ImageInfo ([320, 240], [640, 480])
 debris_image = simplegui.load_image ("http://commondatastorage.googleapis.com/codeskulptor-assets/lathrop/debris_blend.png")
 

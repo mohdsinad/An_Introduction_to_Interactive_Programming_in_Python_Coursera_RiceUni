@@ -9,7 +9,7 @@
     35  
 
 ### Explanation  
-    This is the radius of the circle used in computing collisions involving the shape.  
+This is the radius of the circle used in computing collisions involving the shape.  
 
 ----
 # Question 2
@@ -20,7 +20,7 @@
 * one `ImageInfo` object, ten `Sprite` objects  
 
 ### Answer  
-    one ImageInfo object, ten Sprite objects  
+one ImageInfo object, ten Sprite objects  
 
 #### Explanation  
 Since there is one image file, there should be one `ImageInfo`. Since there are ten displayed asteroids, each potentially with its own velocity and angle, there should be ten `Sprite` objects.  
@@ -35,10 +35,10 @@ Since there is one image file, there should be one `ImageInfo`. Since there are 
 * Add a size attribute in the `Sprite` class and a size parameter to `Sprite.__init__`. Use the size attribute when drawing the sprite.  
 
 ### Answer  
-    Add a size attribute in the Sprite class and a size parameter to Sprite.__init__. Use the size attribute when drawing the sprite.  
+Add a size attribute in the `Sprite` class and a size parameter to `Sprite.__init__.` Use the size attribute when drawing the sprite.  
 
 #### Explanation  
-Adding a size attribute in the Sprite class allows each instance of a sprite to have a different size that can use in the draw method for the sprite.  
+Adding a size attribute in the `Sprite` class allows each instance of a sprite to have a different size that can use in the draw method for the sprite.  
 
 ----
 # Question 4
@@ -55,7 +55,7 @@ Adding a size attribute in the Sprite class allows each instance of a sprite to 
 # Question 5
   Assume you have code that loads and plays a sound. Unfortunately, you don't hear anything. Which of the following could be a reason?  
 
-### Answer
+### Answers
 * You have set the volume level to 0.  
 * No file is found with the given URL.  
 * A file found with the given URL isn't a sound file recognized by your browser.  
